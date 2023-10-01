@@ -1,11 +1,14 @@
+import React, {Component} from 'react'
 import './App.css'
 
-function App() {
-  return (
-    <h1 className="text-3xl font-bold underline">
-      Hello World!
-    </h1>
-  )
+class App extends Component {
+  render() {
+    return(
+      <div className="App">
+        <h1>Sziasztok!</h1>
+      </div>
+    )
+  }
 }
 
 export default App
